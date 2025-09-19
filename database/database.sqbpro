@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:\Users\francis\OneDrive\Desktop\Laravel\student-infosys\database\database.sqlite" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="1"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="2357"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,8:mainstudents"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="students" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="40"/><column index="2" value="78"/><column index="3" value="75"/><column index="4" value="98"/><column index="5" value="54"/><column index="6" value="220"/><column index="7" value="105"/><column index="8" value="215"/><column index="9" value="115"/><column index="10" value="111"/><column index="11" value="129"/><column index="12" value="129"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="SQL 1">INSERT INTO students (first_name, last_name, date_of_birth, gender, email, phone_number, address, enrollment_date, photo_url, created_at, updated_at)
+VALUES 
+('Rafael', 'Mendoza', '2001-10-12', 'male', 'rafael.mendoza_x9a3@example.com', '09123456789', '12 Gen. Luna St, San Juan', '2022-07-15', 'photos/rafael.jpg', '2022-07-15 09:00:00', '2022-07-15 09:00:00'),
+
+('Bianca', 'Flores', '2002-02-28', 'female', 'bianca.flores_7kq2@example.com', '09234567890', '34 Mabuhay Lane, Mandaluyong', '2022-07-15', 'photos/bianca.jpg', '2022-07-15 09:05:00', '2022-07-15 09:05:00'),
+
+('Jasper', 'Limbo', '2003-06-09', 'male', 'jasper.limbo_r4t8@example.com', '09345678901', '56 Kalayaan Ave, Makati', '2022-07-15', 'photos/jasper.jpg', '2022-07-15 09:10:00', '2022-07-15 09:10:00'),
+
+('Cheska', 'Navarro', '2001-11-23', 'female', 'cheska.navarro_m2z7@example.com', '09456789012', '78 Commonwealth Ave, Quezon City', '2022-07-15', 'photos/cheska.jpg', '2022-07-15 09:15:00', '2022-07-15 09:15:00'),
+
+('Daryl', 'Gomez', '2000-03-17', 'male', 'daryl.gomez_q8w5@example.com', '09567890123', '90 Ortigas Ext, Pasig', '2022-07-15', 'photos/daryl.jpg', '2022-07-15 09:20:00', '2022-07-15 09:20:00'),
+
+('Trisha', 'Cruz', '2002-12-01', 'female', 'trisha.cruz_v6p1@example.com', '09678901234', '102 Tandang Sora, Quezon City', '2022-07-15', 'photos/trisha.jpg', '2022-07-15 09:25:00', '2022-07-15 09:25:00'),
+
+('Enzo', 'Ramos', '2003-04-05', 'male', 'enzo.ramos_b3n9@example.com', '09789012345', '114 P. Tuazon Blvd, Cubao', '2022-07-15', 'photos/enzo.jpg', '2022-07-15 09:30:00', '2022-07-15 09:30:00'),
+
+('Kyla', 'Bautista', '2001-08-18', 'female', 'kyla.bautista_t7x4@example.com', '09890123456', '126 Marcos Hwy, Antipolo', '2022-07-15', 'photos/kyla.jpg', '2022-07-15 09:35:00', '2022-07-15 09:35:00'),
+
+('Miguel', 'Soriano', '2000-05-26', 'male', 'miguel.soriano_f5d2@example.com', '09901234567', '138 EDSA, Caloocan', '2022-07-15', 'photos/miguel.jpg', '2022-07-15 09:40:00', '2022-07-15 09:40:00'),
+
+('Janelle', 'Uy', '2002-09-30', 'female', 'janelle.uy_k9e6@example.com', '09102345678', '150 Sucat Rd, Parañaque', '2022-07-15', 'photos/janelle.jpg', '2022-07-15 09:45:00', '2022-07-15 09:45:00');</sql><current_tab id="0"/></tab_sql></sqlb_project>
