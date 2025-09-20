@@ -121,9 +121,11 @@
     <a href="" class="nav-link">
       <i class="bi bi-book"></i><span>Courses</span>
     </a>
-    <a href="" class="nav-link">
-      <i class="bi bi-people"></i><span>Teachers</span>
+
+    <a href="{{ route('teachers.index') }}" class="nav-link {{ request()->routeIs('teachers.index') ? 'active' : '' }}">
+    <i class="bi bi-person"></i><span>Teachers</span>
     </a>
+
     <a href="" class="nav-link">
       <i class="bi bi-card-checklist"></i><span>Grades</span>
     </a>
